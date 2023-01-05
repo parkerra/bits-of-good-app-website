@@ -7,21 +7,56 @@ html {
 
 body {
     min-width: 500px;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div {
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #headshot-photo {
-    width: 300px;
-    border-radius: 500px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: pink;
 }
 
-p {
+h1, h2, p {
     text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+#location-button {
+    display: block;
+    margin: 0 auto;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
